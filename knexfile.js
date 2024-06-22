@@ -10,6 +10,12 @@ module.exports = {
 			filename: './data/dev.sqlite3',
 		},
 		useNullAsDefault: true,
+		migrations: {
+			directory: './data/migrations',
+		},
+		seeds: {
+			directory: './data/seeds', // Specify the correct path for seeds
+		},
 	},
 
 	testing: {
@@ -18,6 +24,12 @@ module.exports = {
 			filename: './data/test.sqlite3',
 		},
 		useNullAsDefault: true,
+		migrations: {
+			directory: './data/migrations',
+		},
+		seeds: {
+			directory: './data/seeds', // Specify the correct path for seeds
+		},
 	},
 
 	staging: {
